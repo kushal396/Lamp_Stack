@@ -17,39 +17,65 @@ For example, try 'man man'.
 
 ## Your first approach below (first.txt)
 
-Reasoning - %%% Type your approach here %%%
+Reasoning - As you said rotate the letters in first.txt so I opened first.txt and then used a online cipher rotation to decode it and found that on doing rot18 I am getting a message written in english.
 
 ```
-%%% Replace this with the 1st challenge answer %%%
+noicee you did crack a rotation encryption on your own. The following is a clue for the next puzzle: CLASS of that INPUT
 ```
 
 ---
 
 ## Your second approach below (strings.txt)
 
-Reasoning - %%% Type your approach here %%%
+Reasoning - Now the only file left was Lamp_Stack_Task.zip so I unzipped it and then did ls and found only directory named question mark and then I again did ls and then also there was only one directory Lamp_Stack so I did cd and then for finding strings.txt I used the find command : "find . -name strings.txt" and got A as written below. Then to find which file has the text in it I used the command "grep -r text" where text is the text to be found.
 
 ```
-%%% Replace this with the 2nd challenge answer %%%
+A : Lamp_Stack_task/question_mark/Lamp_Stack/1/5/0/3/strings.txt
+As said find location of all strings I am writing it :
+kw4QLNylm2inErX -   Lamp_Stack_task/question_mark/Lamp_Stack/final.txt
+                    Lamp_Stack_task/question_mark/Lamp_Stack/six.txt
+
+DabAWF1UenBD2W  -   Lamp_Stack_task/question_mark/Lamp_Stack/five.txt
+                    Lamp_Stack_task/question_mark/Lamp_Stack/three.txt
+
+kPVEQPc6ZN8x2jn -   Lamp_Stack_task/question_mark/Lamp_Stack/final.txt
+                    Lamp_Stack_task/question_mark/Lamp_Stack/seven.txt
+
+g4JoMqFZyat9vd5 -   Lamp_Stack_task/question_mark/Lamp_Stack/final.txt
+                    Lamp_Stack_task/question_mark/Lamp_Stack/eight.txt
+
+ORNwuwGtKDLydge -   Lamp_Stack_task/question_mark/Lamp_Stack/five.txt
+                    Lamp_Stack_task/question_mark/Lamp_Stack/one.txt
+
+TqMuGims7vlJtno -   Lamp_Stack_task/question_mark/Lamp_Stack/final.txt
+                    Lamp_Stack_task/question_mark/Lamp_Stack/ten.txt
+
+8dc2evcCSSc4kUy -   Lamp_Stack_task/question_mark/Lamp_Stack/final.txt
+                    Lamp_Stack_task/question_mark/Lamp_Stack/eleven.txt
+
+
+Password for fourth.zip is   - :   eleven.txt
 ```
 
 ---
 
 ## Your third approach below (fourth.zip)
 
-Reasoning - %%% Type your approach here %%%
+Reasoning - As I got the answer of the fourth zip by trying either final.txt or eleven.txt, I unzipped the file and then a new directory named get_in opened. In that then I searched for DevOps by doing grep -r DevOps.
+And then I found the string and file path which is as follows.
 
 ```
-%%% Replace this with the 3rd challenge answer %%%
+Path of filel : Lamp_Stack/get_in/4/2_inner/0.txt
+The string is : DevOps{y0ur3_4w350m3_4nd_0ne_5t3p_c1053r}
 ```
 
 ---
 
 
-- Name :
-- Roll :
-- GitHub username:
-- Discord username:
+- Name : Kushal Bansal
+- Roll : 220575
+- GitHub username: kushal396
+- Discord username: Kushal0732
 
 
 ## Do not tamper below this line
