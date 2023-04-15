@@ -65,7 +65,7 @@ Reasoning - As I got the answer of the fourth zip by trying either final.txt or 
 And then I found the string and file path which is as follows.
 
 ```
-Path of filel : Lamp_Stack/get_in/4/2_inner/0.txt
+Path of file : Lamp_Stack/get_in/4/2_inner/0.txt
 The string is : DevOps{y0ur3_4w350m3_4nd_0ne_5t3p_c1053r}
 ```
 
