@@ -17,7 +17,7 @@ For example, try 'man man'.
 
 ## Your first approach below (first.txt)
 
-Reasoning - As you said rotate the letters in first.txt so I opened first.txt and then used a online cipher rotation to decode it and found that on doing rot18 I am getting a message written in english.
+Reasoning - After seeing your hint in zeroth.c and instructions in Readme, I Googled about rotation of text and came to know about rotating cypher. Then I tried the website - https://www.dcode.fr/caesar-cipher and ran the brute force decoder to find that that you have used rot18 cypher. Here is the decoded result
 
 ```
 noicee you did crack a rotation encryption on your own. The following is a clue for the next puzzle: CLASS of that INPUT
