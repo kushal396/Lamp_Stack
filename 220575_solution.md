@@ -27,7 +27,7 @@ noicee you did crack a rotation encryption on your own. The following is a clue 
 
 ## Your second approach below (strings.txt)
 
-Reasoning - Since strings.txt was no where to be seen in the root repo, I unzipped Lamp_Stack_Task.zip to see if that folder contained the file. To my surprise, while running command - unzip Lamp_Stack_Task.zip, I saw one strings.txt being extracted. From there I got the location of that file. I also ran this command to just verify the result - find . - name strings.txt and it showed same result. This gave me the variable A. Then to find which file has the text in it I used the command "grep -r text" where text is the text to be found.
+Reasoning - Since strings.txt was no where to be seen in the root repo, I unzipped Lamp_Stack_Task.zip to see if that folder contained the file. To my surprise, while running command `unzip Lamp_Stack_Task.zip`, I saw one strings.txt being extracted. From there I got the location of that file. I also ran this command to just verify the result  `find . - name strings.txt` and it showed same result. This gave me the variable A. Then to find which file has the text in it I used the command `grep -r text` where text is the text to be found.
 
 ```
 A : Lamp_Stack_task/question_mark/Lamp_Stack/1/5/0/3/strings.txt
@@ -61,7 +61,7 @@ Password for fourth.zip is   - :   eleven.txt
 
 ## Your third approach below (fourth.zip)
 
-Reasoning - As I got the answer of the fourth zip by trying either final.txt or eleven.txt, I unzipped the file and then a new directory named get_in opened. In that then I searched for DevOps by doing grep -r DevOps.
+Reasoning - As I got the answer of the fourth zip by trying either final.txt or eleven.txt, I unzipped the file and then a new directory named get_in opened. In that then I searched for DevOps by doing `grep -r DevOps`.
 And then I found the string and file path which is as follows.
 
 ```
